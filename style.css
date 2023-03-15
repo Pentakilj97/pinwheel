@@ -3,14 +3,17 @@
 }
 
 html, body{
-    background-color: #345511;
+    background: rgb(241,0,63);
+    background: linear-gradient(90deg, rgba(241,0,63,1) 15%, rgba(241,179,0,0.21332282913165268) 50%, rgba(179,0,241,1) 85%);
     margin: 0px;
     padding: 0px;
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: smaller;
 }
 
 
 .grid-container{
-    border: 1px solid green;
+    border: 1px solid #3a00f1;
     width: 100vw;
     height: 100vw;
     display: grid;
@@ -26,7 +29,7 @@ html, body{
 }
 
 .arm{
-    border: 1px solid #52FFEE;
+    border: 1px solid #b300f1;
     justify-items: stretch;
 }
 
@@ -56,18 +59,19 @@ html, body{
 .arm-img{
     width: 16.66vw;
     height: 16.66vw;
-    border: 1px solid #4FB477;
+    border: 1px solid #f100b7;
     
 }
 
 .arm-text{
     width: 16.66vw;
     height: 16.66vw;
-    border: 1px solid #DCFFFD;
+    border: 1px solid f1b300;
     display: flex;
     align-items: center;
     text-align: center;
     padding: 8px;
+    overflow-block: auto;
 }
 
 @media only screen and (max-width: 1000px) {
