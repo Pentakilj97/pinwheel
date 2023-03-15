@@ -3,6 +3,7 @@
 }
 
 html, body{
+    background-color: #345511;
     margin: 0px;
     padding: 0px;
 }
@@ -25,7 +26,7 @@ html, body{
 }
 
 .arm{
-    border: 1px solid red;
+    border: 1px solid #52FFEE;
     justify-items: stretch;
 }
 
@@ -55,13 +56,14 @@ html, body{
 .arm-img{
     width: 16.66vw;
     height: 16.66vw;
-    border: 1px solid green;
+    border: 1px solid #4FB477;
+    
 }
 
 .arm-text{
     width: 16.66vw;
     height: 16.66vw;
-    border: 1px solid yellow;
+    border: 1px solid #DCFFFD;
     display: flex;
     align-items: center;
     text-align: center;
