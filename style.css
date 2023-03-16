@@ -30,6 +30,8 @@ html, body{
 
 .arm{
     justify-items: stretch;
+    border-style: inset;
+    border: black 10px double;background-clip: content-box;
 }
 
 .a1{
@@ -69,7 +71,6 @@ html, body{
 .arm-img{
     width: 16.66vw;
     height: 16.66vw;
-    
     
 }
 
