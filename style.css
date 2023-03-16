@@ -29,37 +29,47 @@ html, body{
 }
 
 .arm{
-    border: 1px solid #b300f1;
     justify-items: stretch;
 }
 
 .a1{
+    background: linear-gradient(90deg, rgba(241,0,63,1) 15%, rgba(241,179,0,0.21332282913165268) 50%, rgba(179,0,241,1) 85%);
+    background: b300f1;
     grid-area: a1;
     display: flex;
     flex-direction: column;
+    border-bottom-right-radius: 80px 80px;
+
 }
 
 .a2{
+    background: linear-gradient(90deg, rgba(241,0,63,1) 15%, rgba(241,179,0,0.21332282913165268) 50%, rgba(179,0,241,1) 85%);
     grid-area: a2;
     display: flex;
     flex-direction: row-reverse;
+    border-bottom-left-radius: 80px 80px;
 }
 
 .a3{
+    background: linear-gradient(90deg, rgba(241,0,63,1) 15%, rgba(241,179,0,0.21332282913165268) 50%, rgba(179,0,241,1) 85%);
     grid-area: a3;
     display: flex;
     flex-direction: column-reverse;
+    border-top-left-radius: 80px 80px;
 }
 
 .a4{
+    background: linear-gradient(90deg, rgba(241,0,63,1) 15%, rgba(241,179,0,0.21332282913165268) 50%, rgba(179,0,241,1) 85%);
     grid-area: a4;
     display: flex;
+    border-top-right-radius: 80px 80px;
+    
 }
 
 .arm-img{
     width: 16.66vw;
     height: 16.66vw;
-    border: 1px solid #f100b7;
+    
     
 }
 
